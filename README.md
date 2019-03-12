@@ -30,6 +30,22 @@ cd pytorch-DEX
 python demo.py path/to/image 
 ```
 
+## Results
+<img src="imgs/2.png">
+
+```
+predict image: imgs/2.png
+woman: 0.994, man: 0.006
+age: 21.433
+```
+<img src="imgs/5.png">
+
+```bash
+predict image: imgs/5.png
+woman: 0.010, man: 0.990
+age: 42.896
+```
+
 ## Citation
     @InProceedings{Rothe-ICCVW-2015,
       author = {Rasmus Rothe and Radu Timofte and Luc Van Gool},
