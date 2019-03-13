@@ -1,9 +1,7 @@
 import sys
-import cv2
-import torch
-
 import dex
 
+# setup model
 dex.eval()
 
 
