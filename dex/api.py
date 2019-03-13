@@ -5,8 +5,8 @@ import numpy as np
 
 from .models import Age, Gender
 
-age_model = None
-gender_model = None
+age_model = Age()
+gender_model = Gender()
 
 cwd = os.path.dirname(__file__)
 age_model_path = os.path.join(cwd, 'pth/age_sd.pth')
@@ -15,10 +15,8 @@ gender_model_path = os.path.join(cwd, 'pth/gender_sd.pth')
 def _eval():
     global age_model
     global gender_model
-    age_model = Age()
     age_model.load_state_dict(torch.load(age_model_path))
     age_model.eval()
-    gender_model = Gender()
     gender_model.load_state_dict(torch.load(gender_model_path))
     gender_model.eval()
     
