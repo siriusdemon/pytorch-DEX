@@ -46,6 +46,14 @@ woman: 0.010, man: 0.990
 age: 42.896
 ```
 
+## Installation
+You can use dex as a separate Python package right now!
+```
+cd pytorch-DEX
+pip install .
+```
+See [demo.py](demo.py) for example.
+
 ## Citation
     @InProceedings{Rothe-ICCVW-2015,
       author = {Rasmus Rothe and Radu Timofte and Luc Van Gool},
