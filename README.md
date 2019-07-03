@@ -2,6 +2,7 @@
 
 This is a pytorch version of DEX. Refer to its [Home Page](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) for more details
 
+You can refer to [insight](https://github.com/siriusdemon/hackaway/tree/master/projects/insight) if you want a much smaller model but it uses `mxnet` instead of `pytorch`. I haven't convert it to `pytorch` yet.
 
 ## Getting Started
 
